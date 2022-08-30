@@ -59,5 +59,7 @@ else:
     None
 if letter == 0:
     print("No instances of " + str(ichi) + " found in " + str(go))
+elif letter == 1:
+    print(str(letter) + " instance of " + str(ichi) + " found in " + str(go))
 else:
     print(str(letter) + " instances of " + str(ichi) + " found in " + str(go))
